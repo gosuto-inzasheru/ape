@@ -57,7 +57,7 @@
         <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Main">
               <p class="caption" role="heading"><span class="caption-text">User Guides</span></p>
 <ul>
-<li class="toctree-l1"><a class="reference internal" href="userguides/quickstart.html">Quick Start</a></li>
+<li class="toctree-l1"><a class="reference internal" href="userguides/quickstart.html">Overview</a></li>
 <li class="toctree-l1"><a class="reference internal" href="userguides/accounts.html">Accounts</a></li>
 <li class="toctree-l1"><a class="reference internal" href="userguides/installing_plugins.html">Plugins</a></li>
 <li class="toctree-l1"><a class="reference internal" href="userguides/projects.html">Developing Projects with Ape</a></li>
@@ -193,6 +193,22 @@
 </li>
       </ul></li>
       <li>
+    --hd-path
+
+      <ul>
+        <li><a href="commands/accounts.html#cmdoption-accounts-generate-hd-path">accounts-generate command line option</a>
+</li>
+        <li><a href="commands/accounts.html#cmdoption-accounts-import-hd-path">accounts-import command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --hide-mnemonic
+
+      <ul>
+        <li><a href="commands/accounts.html#cmdoption-accounts-generate-hide-mnemonic">accounts-generate command line option</a>
+</li>
+      </ul></li>
+      <li>
     --interactive
 
       <ul>
@@ -230,12 +246,21 @@
 </li>
       </ul></li>
       <li>
+    --use-mnemonic
+
+      <ul>
+        <li><a href="commands/accounts.html#cmdoption-accounts-import-use-mnemonic">accounts-import command line option</a>
+</li>
+      </ul></li>
+      <li>
     --verbosity
 
       <ul>
         <li><a href="commands/accounts.html#cmdoption-accounts-change-password-v">accounts-change-password command line option</a>
 </li>
         <li><a href="commands/accounts.html#cmdoption-accounts-delete-v">accounts-delete command line option</a>
+</li>
+        <li><a href="commands/accounts.html#cmdoption-accounts-export-v">accounts-export command line option</a>
 </li>
         <li><a href="commands/accounts.html#cmdoption-accounts-generate-v">accounts-generate command line option</a>
 </li>
@@ -260,6 +285,8 @@
         <li><a href="commands/test.html#cmdoption-test-v">test command line option</a>
 </li>
       </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li>
     --watch
 
@@ -267,8 +294,6 @@
         <li><a href="commands/test.html#cmdoption-test-w">test command line option</a>
 </li>
       </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li>
     --watch-delay
 
@@ -281,6 +306,13 @@
 
       <ul>
         <li><a href="commands/test.html#cmdoption-test-watch-folders">test command line option</a>
+</li>
+      </ul></li>
+      <li>
+    --word-count
+
+      <ul>
+        <li><a href="commands/accounts.html#cmdoption-accounts-generate-word-count">accounts-generate command line option</a>
 </li>
       </ul></li>
       <li>
@@ -334,6 +366,8 @@
         <li><a href="commands/accounts.html#cmdoption-accounts-change-password-v">accounts-change-password command line option</a>
 </li>
         <li><a href="commands/accounts.html#cmdoption-accounts-delete-v">accounts-delete command line option</a>
+</li>
+        <li><a href="commands/accounts.html#cmdoption-accounts-export-v">accounts-export command line option</a>
 </li>
         <li><a href="commands/accounts.html#cmdoption-accounts-generate-v">accounts-generate command line option</a>
 </li>
@@ -453,6 +487,8 @@
 </li>
         <li><a href="methoddocs/api.html#ape.api.query.QueryAPI.__hash__">(ape.api.query.QueryAPI attribute)</a>
 </li>
+        <li><a href="methoddocs/managers.html#ape.managers.config.CompilerConfig.__hash__">(ape.managers.config.CompilerConfig attribute)</a>
+</li>
         <li><a href="methoddocs/managers.html#ape.managers.config.ConfigManager.__hash__">(ape.managers.config.ConfigManager attribute)</a>
 </li>
         <li><a href="methoddocs/managers.html#ape.managers.config.DeploymentConfig.__hash__">(ape.managers.config.DeploymentConfig attribute)</a>
@@ -551,10 +587,27 @@
 </li>
       </ul></li>
       <li>
+    accounts-export command line option
+
+      <ul>
+        <li><a href="commands/accounts.html#cmdoption-accounts-export-v">--verbosity</a>
+</li>
+        <li><a href="commands/accounts.html#cmdoption-accounts-export-v">-v</a>
+</li>
+        <li><a href="commands/accounts.html#cmdoption-accounts-export-arg-ALIAS">ALIAS</a>
+</li>
+      </ul></li>
+      <li>
     accounts-generate command line option
 
       <ul>
+        <li><a href="commands/accounts.html#cmdoption-accounts-generate-hd-path">--hd-path</a>
+</li>
+        <li><a href="commands/accounts.html#cmdoption-accounts-generate-hide-mnemonic">--hide-mnemonic</a>
+</li>
         <li><a href="commands/accounts.html#cmdoption-accounts-generate-v">--verbosity</a>
+</li>
+        <li><a href="commands/accounts.html#cmdoption-accounts-generate-word-count">--word-count</a>
 </li>
         <li><a href="commands/accounts.html#cmdoption-accounts-generate-v">-v</a>
 </li>
@@ -565,6 +618,10 @@
     accounts-import command line option
 
       <ul>
+        <li><a href="commands/accounts.html#cmdoption-accounts-import-hd-path">--hd-path</a>
+</li>
+        <li><a href="commands/accounts.html#cmdoption-accounts-import-use-mnemonic">--use-mnemonic</a>
+</li>
         <li><a href="commands/accounts.html#cmdoption-accounts-import-v">--verbosity</a>
 </li>
         <li><a href="commands/accounts.html#cmdoption-accounts-import-v">-v</a>
@@ -616,6 +673,8 @@
         <li><a href="commands/accounts.html#cmdoption-accounts-change-password-arg-ALIAS">accounts-change-password command line option</a>
 </li>
         <li><a href="commands/accounts.html#cmdoption-accounts-delete-arg-ALIAS">accounts-delete command line option</a>
+</li>
+        <li><a href="commands/accounts.html#cmdoption-accounts-export-arg-ALIAS">accounts-export command line option</a>
 </li>
         <li><a href="commands/accounts.html#cmdoption-accounts-generate-arg-ALIAS">accounts-generate command line option</a>
 </li>
@@ -673,6 +732,8 @@
         <li><a href="methoddocs/api.html#module-ape.api.config">module</a>
 </li>
       </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li>
     ape.api.convert
 
@@ -694,8 +755,6 @@
         <li><a href="methoddocs/api.html#module-ape.api.networks">module</a>
 </li>
       </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li>
     ape.api.projects
 
@@ -813,13 +872,6 @@
 
       <ul>
         <li><a href="methoddocs/managers.html#module-ape.managers.project.manager">module</a>
-</li>
-      </ul></li>
-      <li>
-    ape.managers.project.types
-
-      <ul>
-        <li><a href="methoddocs/managers.html#module-ape.managers.project.types">module</a>
 </li>
       </ul></li>
       <li>
@@ -1082,9 +1134,13 @@
         <li><a href="methoddocs/managers.html#ape.managers.compilers.CompilerManager.compile">(ape.managers.compilers.CompilerManager method)</a>
 </li>
       </ul></li>
+      <li><a href="methoddocs/managers.html#ape.managers.config.ConfigManager.compiler">compiler (ape.managers.config.ConfigManager attribute)</a>
+</li>
       <li><a href="methoddocs/managers.html#ape.managers.project.manager.ProjectManager.compiler_data">compiler_data (ape.managers.project.manager.ProjectManager property)</a>
 </li>
       <li><a href="methoddocs/api.html#ape.api.compiler.CompilerAPI">CompilerAPI (class in ape.api.compiler)</a>
+</li>
+      <li><a href="methoddocs/managers.html#ape.managers.config.CompilerConfig">CompilerConfig (class in ape.managers.config)</a>
 </li>
       <li><a href="methoddocs/exceptions.html#ape.exceptions.CompilerError">CompilerError</a>
 </li>
@@ -1116,14 +1172,14 @@
 </li>
       <li><a href="methoddocs/managers.html#ape.managers.config.ConfigManager">ConfigManager (class in ape.managers.config)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="methoddocs/api.html#ape.api.providers.ProviderAPI.connect">connect() (ape.api.providers.ProviderAPI method)</a>
 
       <ul>
         <li><a href="methoddocs/api.html#ape.api.providers.SubprocessProvider.connect">(ape.api.providers.SubprocessProvider method)</a>
 </li>
       </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="methoddocs/api.html#ape.api.providers.UpstreamProvider.connection_str">connection_str (ape.api.providers.UpstreamProvider property)</a>
 </li>
       <li>
@@ -1464,7 +1520,7 @@
       </ul></li>
       <li><a href="methoddocs/managers.html#ape.managers.config.ConfigManager.get_config">get_config() (ape.managers.config.ConfigManager method)</a>
 </li>
-      <li><a href="methoddocs/managers.html#ape.managers.chain.ContractCache.get_container">get_container() (ape.managers.chain.ContractCache method)</a>
+      <li><a href="methoddocs/managers.html#ape.managers.chain.ContractCache.get_container">get_container() (ape.managers.chain.ContractCache class method)</a>
 </li>
       <li><a href="methoddocs/managers.html#ape.managers.project.manager.ProjectManager.get_contract">get_contract() (ape.managers.project.manager.ProjectManager method)</a>
 </li>
@@ -1582,6 +1638,8 @@
 <h2 id="I">I</h2>
 <table style="width: 100%" class="indextable genindextable"><tr>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="methoddocs/managers.html#ape.managers.config.CompilerConfig.ignore_files">ignore_files (ape.managers.config.CompilerConfig attribute)</a>
+</li>
       <li><a href="methoddocs/api.html#ape.api.accounts.ImpersonatedAccount">ImpersonatedAccount (class in ape.api.accounts)</a>
 </li>
       <li><a href="methoddocs/cli.html#ape.cli.options.incompatible_with">incompatible_with() (in module ape.cli.options)</a>
@@ -1619,10 +1677,10 @@
         <li><a href="methoddocs/api.html#ape.api.providers.Web3Provider.is_connected">(ape.api.providers.Web3Provider property)</a>
 </li>
       </ul></li>
-      <li><a href="methoddocs/api.html#ape.api.address.BaseAddress.is_contract">is_contract (ape.api.address.BaseAddress property)</a>
-</li>
   </ul></td>
   <td style="width: 33%; vertical-align: top;"><ul>
+      <li><a href="methoddocs/api.html#ape.api.address.BaseAddress.is_contract">is_contract (ape.api.address.BaseAddress property)</a>
+</li>
       <li><a href="methoddocs/api.html#ape.api.convert.ConverterAPI.is_convertible">is_convertible() (ape.api.convert.ConverterAPI method)</a>
 
       <ul>
@@ -1790,8 +1848,6 @@
         <li><a href="methoddocs/managers.html#module-ape.managers.project.dependency">ape.managers.project.dependency</a>
 </li>
         <li><a href="methoddocs/managers.html#module-ape.managers.project.manager">ape.managers.project.manager</a>
-</li>
-        <li><a href="methoddocs/managers.html#module-ape.managers.project.types">ape.managers.project.types</a>
 </li>
         <li><a href="methoddocs/managers.html#module-ape.managers.query">ape.managers.query</a>
 </li>
@@ -2009,10 +2065,10 @@
         <li><a href="commands/plugins.html#cmdoption-plugins-uninstall-arg-PLUGIN-NAMES">PLUGIN-NAMES</a>
 </li>
       </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="methoddocs/plugins.html#ape.plugins.pluggy_patch.PluginType">PluginType (class in ape.plugins.pluggy_patch)</a>
 </li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="methoddocs/managers.html#ape.managers.chain.BlockContainer.poll_blocks">poll_blocks() (ape.managers.chain.BlockContainer method)</a>
 </li>
       <li><a href="methoddocs/contracts.html#ape.contracts.base.ContractEvent.poll_logs">poll_logs() (ape.contracts.base.ContractEvent method)</a>
@@ -2033,6 +2089,14 @@
       </ul></li>
       <li><a href="methoddocs/utils.html#ape.utils.GeneratedDevAccount.private_key">private_key (ape.utils.GeneratedDevAccount attribute)</a>
 </li>
+      <li><a href="methoddocs/api.html#ape.api.projects.ProjectAPI.process_config_file">process_config_file() (ape.api.projects.ProjectAPI method)</a>
+
+      <ul>
+        <li><a href="methoddocs/managers.html#ape.managers.project.types.BaseProject.process_config_file">(ape.managers.project.types.BaseProject method)</a>
+</li>
+        <li><a href="methoddocs/managers.html#ape.managers.project.types.BrownieProject.process_config_file">(ape.managers.project.types.BrownieProject method)</a>
+</li>
+      </ul></li>
       <li><a href="methoddocs/api.html#ape.api.providers.SubprocessProvider.process_name">process_name (ape.api.providers.SubprocessProvider property)</a>
 </li>
       <li><a href="methoddocs/ape.html#ape.Project">Project (in module ape)</a>
@@ -2374,10 +2438,18 @@
         <li><a href="methoddocs/api.html#ape.api.providers.Web3Provider.update_settings">(ape.api.providers.Web3Provider method)</a>
 </li>
       </ul></li>
-  </ul></td>
-  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="methoddocs/api.html#ape.api.providers.UpstreamProvider">UpstreamProvider (class in ape.api.providers)</a>
 </li>
+      <li><a href="methoddocs/api.html#ape.api.projects.DependencyAPI.uri">uri (ape.api.projects.DependencyAPI property)</a>
+
+      <ul>
+        <li><a href="methoddocs/managers.html#ape.managers.project.dependency.GithubDependency.uri">(ape.managers.project.dependency.GithubDependency property)</a>
+</li>
+        <li><a href="methoddocs/managers.html#ape.managers.project.dependency.LocalDependency.uri">(ape.managers.project.dependency.LocalDependency property)</a>
+</li>
+      </ul></li>
+  </ul></td>
+  <td style="width: 33%; vertical-align: top;"><ul>
       <li><a href="methoddocs/api.html#ape.api.networks.NetworkAPI.use_default_provider">use_default_provider() (ape.api.networks.NetworkAPI method)</a>
 </li>
       <li><a href="methoddocs/api.html#ape.api.networks.NetworkAPI.use_provider">use_provider() (ape.api.networks.NetworkAPI method)</a>
